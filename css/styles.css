@@ -16,8 +16,6 @@ body{
 }
 .top-section img{
     padding-left: 4%;
-    width: 150px;
-
 }
 
 .icons img{
@@ -103,24 +101,65 @@ h1{
 }
 
 @media screen and (min-width: 1024px) {
+    body{
+        background-image: url('../images/bg-desktop.png');
+        background-color: hsl(229, 57%, 11%);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
 
     .container{
         display: flex;
-        flex-direction: row;
-        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .logo{
+        width: 70%;
     }
 
     .top-section{
-        width:2px;
-        height: 2px;
+        margin-right: 2%;
+        padding: 3% 8% 3% 2%;
     }
 
     .icons{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
+        padding-top: 7%;
     }
     
+    .quota-secion{
+        width: 40%;
+        display: flex;
+        flex-direction: column; 
+        padding-top: 2%;
+        padding-bottom: 1.5%;
+    }
+
+    .limit p{
+        margin-top: 1%;
+    }
+
+    .gigas-left{
+        position: absolute;
+        width: 12%;
+        padding: 0;
+        bottom: 37%;
+        right: 1%;
+        border-bottom-right-radius: 0;
+        border-style: solid;
+
+        }
+
+        .used-g{
+            padding-right: 35%;
+        }
+    h1{
+        margin: 0;
+
+    }
+
+    .bar{
+        width:80%;
+    }
 }
