@@ -7,19 +7,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 94dvh;
 }
     
 
 .container{
-    width: 290px;
+    width: 245px;
 }
 
 .top-section{
-    padding: 10%; 
+    padding: 10% 10% 9.5%; 
     background-color:  hsl(228, 56%, 26%);
     border-radius: 10px;
-    border-top-right-radius: 100px;
+    border-top-right-radius: 85px;
+    margin-bottom: 5%;
 }
 .top-section img{
     padding-left: 4%;
@@ -28,21 +29,19 @@ body{
 
 .icons img{
     margin-top: 1.5rem;
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-right: 1.5%;
     background-color: hsl(229, 57%, 11%);
-    border-radius: 5px;
-    padding: 5%;
-    width: 15px;
-    height: 18px;
+    border-radius: 10px;
+    padding: 12px 10px;
+    width: 16px;
+    height: 16px;
 }
 
-.icons img:last-child{
-    width: 20px;
-}
 
 .quota-secion{
     background-color: hsl(228, 56%, 26%);
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 5%;
     margin-top: 4%;
     color: hsl(243, 100%, 93%);
