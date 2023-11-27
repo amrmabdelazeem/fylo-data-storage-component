@@ -7,12 +7,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 94dvh;
+    height: 100dvh;
 }
     
 
 .container{
     width: 245px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .top-section{
@@ -47,16 +48,17 @@ body{
     color: hsl(243, 100%, 93%);
     text-align: center;
     font-size: 12px;
-    max-height: 130px;
+    max-height: 110px;
 }
 
 span{
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .bar{
-    width: 70%;
+    width: 76%;
+    height: 8px;
     padding: 3px;
     background-color:hsl(229, 57%, 11%);
     border-radius: 10px;
@@ -68,10 +70,12 @@ span{
     height: 10px;
     background:linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-radius: 10px;
+    position: relative;
+    top: -2px;
+    left: -1px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    justify-content: flex-end;
 }
 
 .node{
@@ -79,7 +83,8 @@ span{
     width: 8px;
     height: 8px;
     border-radius: 50px;
-    margin-right: 2px;
+    margin-right: 1%;
+    margin-top: 1%;
 }
 
 .limit{
@@ -87,15 +92,17 @@ span{
     justify-content: space-between;
     padding: 0 10%;
     font-size: 10px;
+    font-weight: 700;
 }
 
 .gigas-left{
-    background-color: hsl(243, 100%, 93%);
+    background-color: #ffffff;
     color: #000;
-    margin: 0 25%;
+    width: 55%;
     border-radius: 10px;
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
+    left: 50px;
 }
 h1{
     font-size: 30px;
@@ -115,7 +122,7 @@ h1{
     body{
         background-image: url('../images/bg-desktop.png');
         background-color: hsl(229, 57%, 11%);
-        background-repeat: no-repeat;
+        background-repeat:no-repeat;
         background-size: contain;
         background-position: bottom;
     }
@@ -123,7 +130,8 @@ h1{
     .container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
+        width: 900px;
     }
 
     .logo{
@@ -133,6 +141,7 @@ h1{
     .top-section{
         margin-right: 2%;
         padding: 3% 8% 3% 2%;
+        width: 170px;
     }
 
     .icons{
