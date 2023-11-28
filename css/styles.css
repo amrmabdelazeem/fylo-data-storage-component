@@ -82,6 +82,7 @@ span{
     display: flex;
     justify-content: end;
     align-items: center;
+    animation: animateProgressBar 2s ease-out forwards;
 }
 .node{
     background-color: #fff;
@@ -119,6 +120,15 @@ span{
     color: var(--grayishBlue);
     position: relative;
     top: -7px;
+}
+
+@keyframes animateProgressBar{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
 }
 
 @media (min-width:1200px){
