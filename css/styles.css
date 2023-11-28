@@ -157,10 +157,39 @@ span{
         justify-content: center;
         position: relative;
     }
+    .used-g{
+        align-self: start;
+        margin-left: 7%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .bar{
+        width: 85%;
+
+    }
+    .limit{
+        width: 85%;
+    }
+    .limit p{
+        font-size: 8px;
+        font-weight: 800;
+        margin-top: 6px;
+    }
 
     .gigas-left{
         position: absolute;
         top: -30px;
         right:30px;
+        border-bottom-right-radius: 0;
+    }
+    .triangle{
+        border-right: 0px solid transparent;
+        border-left: 30px solid transparent;
+        border-top: 30px solid #fff;
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 0;
+        z-index: 1;
     }
 }
