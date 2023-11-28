@@ -46,6 +46,7 @@ Users should be able to:
 - Build mobile first workflow.
 - Style the HTML elements according to the design.
 - Build layout for the desktop responsively.
+- Animate the progress bar with CSS.
 - Test the result.
 - Deploy to github.
 
@@ -58,6 +59,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - Responsive design
+- CSS Animations
 
 ### What I learned
 
