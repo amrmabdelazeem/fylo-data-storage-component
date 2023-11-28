@@ -31,7 +31,7 @@ body{
     justify-content: space-evenly;
     padding-left: 2rem;
     margin-bottom: 1rem;
-    width: 280px;
+    width: 265px;
 }
 
 .top-section .logo{
@@ -53,6 +53,7 @@ body{
     align-items: center;
     padding-top: 1rem;
     max-height: 120px;
+    width: 300px;
 }
 .used-g{
     text-align: center;
@@ -118,4 +119,48 @@ span{
     color: var(--grayishBlue);
     position: relative;
     top: -7px;
+}
+
+@media (min-width:1200px){
+    body{
+        background-color: var(--veryDarkBlue);
+        background-image: url("../images/bg-desktop.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0 110%;
+        overflow: hidden;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-section{
+        width: 250px;
+    }
+    .top-section .logo {
+        width: 120px;
+    }
+
+    .icons img{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+
+    .quota-secion{
+        width: 450px;
+        height: 120px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .gigas-left{
+        position: absolute;
+        top: -30px;
+        right:30px;
+    }
 }
