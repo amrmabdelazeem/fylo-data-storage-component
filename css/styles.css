@@ -10,10 +10,15 @@ body{
     background-repeat:no-repeat ;
     background-size: cover;
     font-family: 'Relway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container{
     margin: 0 .8rem;
+    width: 350px
 }
 
 .top-section{
@@ -26,6 +31,7 @@ body{
     justify-content: space-evenly;
     padding-left: 2rem;
     margin-bottom: 1rem;
+    width: 280px;
 }
 
 .top-section .logo{
@@ -45,11 +51,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 1rem;
+    max-height: 120px;
 }
 .used-g{
     text-align: center;
     font-size: 12px;
     color: var(--paleBlue);
+}
+span{
+    font-weight: 700;
+    color: #fff;
 }
 
 .bar{
@@ -78,3 +90,32 @@ body{
     margin-right: 1%;
 }
 
+.limit{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.limit p{
+    color: var(--paleBlue);
+    font-size: 12px;
+}
+
+.gigas-left{
+    background-color: #fff;
+    color: var(--veryDarkBlue);
+    border-radius: 10px;
+    position: relative;
+    padding: .5rem .8rem;
+    
+}
+
+.gigas-left h1{
+    margin: 0;
+}
+
+.gigas-left span{
+    font-size: 12px;
+    color: var(--grayishBlue);
+    position: relative;
+    top: -7px;
+}
