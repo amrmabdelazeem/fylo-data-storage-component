@@ -131,13 +131,13 @@ span{
     }
 }
 
-@media (min-width:1200px){
+@media (min-width:1440px){
     body{
         background-color: var(--veryDarkBlue);
         background-image: url("../images/bg-desktop.png");
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0 135%;
+        background-position: 0 105%;
         overflow: hidden;
     }
     .container {
