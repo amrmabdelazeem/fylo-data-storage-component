@@ -5,6 +5,38 @@
     --veryDarkBlue: hsl(229, 57%, 11%);
 }
 
+body{
+    background-image: url("../images/bg-mobile.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.container{
+    margin: 0 .8rem;
+}
+
+.top-section{
+    background-color: var(--darkBlue);
+    height: 10rem;
+    border-radius: 10px;
+    border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+
+}
+
+.top-section .logo{
+    width: 100px;
+}
+.icons img{
+    background-color: var(--veryDarkBlue);
+    padding: 10px;
+    border-radius: 5px;
+    height: 15px;
+    margin-right: .5rem;
+}
 /* .bar{
     width: 76%;
     height: 8px;
