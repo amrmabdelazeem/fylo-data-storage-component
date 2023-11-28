@@ -1,14 +1,15 @@
 :root{
-    --paleBlue:hsl(243, 100%, 93%);
-    --grayishBlue: hsl(229, 7%, 55%);
-    --darkBlue: hsl(228, 56%, 26%);
-    --veryDarkBlue: hsl(229, 57%, 11%);
+    --paleBlue:rgb(221, 219, 255);
+    --grayishBlue: rgb(132, 135, 148);
+    --darkBlue: rgb(28, 43, 102);
+    --veryDarkBlue: rgb(12, 18, 44);
 }
 
 body{
     background-image: url("../images/bg-mobile.png");
     background-repeat:no-repeat ;
     background-size: cover;
+    font-family: 'Relway', sans-serif;
 }
 
 .container{
@@ -24,7 +25,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 2rem;
-
+    margin-bottom: 1rem;
 }
 
 .top-section .logo{
@@ -37,33 +38,43 @@ body{
     height: 15px;
     margin-right: .5rem;
 }
-/* .bar{
-    width: 76%;
+.quota-secion{
+    background-color: var(--darkBlue);
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.used-g{
+    text-align: center;
+    font-size: 12px;
+    color: var(--paleBlue);
+}
+
+.bar{
+    width: 80%;
     height: 8px;
     padding: 3px;
     background-color:hsl(229, 57%, 11%);
     border-radius: 10px;
-    margin: 0 auto;
 }
-
 .progress-bar{
-    width: 70%;
+    width: 76%;
     height: 10px;
     background:linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-radius: 10px;
     position: relative;
-    top: -2px;
-    left: -1px;
+    top: -1.5px;
     display: flex;
     justify-content: end;
     align-items: center;
 }
-
 .node{
     background-color: #fff;
     width: 8px;
     height: 8px;
     border-radius: 50px;
     margin-right: 1%;
-    margin-top: 1%;
-} */
+}
+
